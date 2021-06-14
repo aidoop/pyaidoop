@@ -7,7 +7,7 @@ from enum import IntEnum
 import open3d as o3d
 
 
-from aidoop.camera.camera_dev_abc import CameraDev
+from pyaidoop.camera.camera_dev_abc import CameraDev
 
 
 class AzureKinnectCapture(CameraDev):
@@ -69,7 +69,7 @@ class AzureKinnectCapture(CameraDev):
 # import time
 # from enum import IntEnum
 
-# from aidoop.camera.camera_dev_abc import CameraDev
+# from pyaidoop.camera.camera_dev_abc import CameraDev
 
 
 # class AzureKinnectCapture(CameraDev):

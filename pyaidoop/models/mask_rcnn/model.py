@@ -21,7 +21,7 @@ import tensorflow.keras.utils as KU
 from tensorflow.python.eager import context
 import tensorflow.keras.models as KM
 
-from aidoop.mask_rcnn import utils
+from pyaidoop.models.mask_rcnn import utils
 
 # Requires TensorFlow 2.0+
 from distutils.version import LooseVersion
@@ -2374,7 +2374,7 @@ class MaskRCNN(object):
 
         # Add multi-GPU support.
         if config.GPU_COUNT > 1:
-            from aidoop.mask_rcnn.parallel_model import ParallelModel
+            from pyaidoop.models.mask_rcnn.parallel_model import ParallelModel
 
             model = ParallelModel(model, config.GPU_COUNT)
 

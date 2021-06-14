@@ -16,7 +16,7 @@ INSTALL_REQUIRES = [
     "Pillow",
     "cython",
     "matplotlib",
-    "tensorflow==2.4.1",
+    "tensorflow==2.5.0",
     "scikit-image==0.16.2",
     "h5py",
     "imgaug",
@@ -25,7 +25,7 @@ INSTALL_REQUIRES = [
 
 setup(
     name="pyaidoop",
-    version="0.0.1",
+    version="0.5.1",
     author="Jinwon Choi",
     author_email="jinwon@ai-doop.com",
     url="https://github.com/aidoop/pyaidoop.git",

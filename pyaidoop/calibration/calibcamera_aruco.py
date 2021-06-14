@@ -6,7 +6,7 @@ import datetime
 import glob
 import sys
 
-from aidoop.aruco.aruco_detect import ArucoDetect
+from pyaidoop.aruco.aruco_detect import ArucoDetect
 
 
 class CalibrationCameraAruco:

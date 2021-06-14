@@ -1,7 +1,7 @@
 import sys
 import cv2
 
-from aidoop.camera.camera_dev_abc import CameraDev
+from pyaidoop.camera.camera_dev_abc import CameraDev
 
 
 class OpencvCapture(CameraDev):

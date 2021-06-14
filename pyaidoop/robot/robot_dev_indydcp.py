@@ -1,7 +1,7 @@
 from time import sleep
 
-from aidoop.robot.robot_arm_dev import RobotArmDev
-import aidoop.robot.provider.neuromeka.indydcp_client as indycli
+from pyaidoop.robot.robot_arm_dev import RobotArmDev
+import pyaidoop.robot.provider.neuromeka.indydcp_client as indycli
 
 # Neuromeka Indy7
 

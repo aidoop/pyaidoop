@@ -5,8 +5,8 @@ import math
 import sys
 import os
 
-from aidoop.etc.hm_util import *
-from aidoop.aruco.aruco_detect import ArucoDetect
+from pyaidoop.etc.hm_util import *
+from pyaidoop.aruco.aruco_detect import ArucoDetect
 from applications.etc.util import PrintMsg
 
 

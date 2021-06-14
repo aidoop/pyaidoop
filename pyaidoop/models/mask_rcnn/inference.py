@@ -1,5 +1,5 @@
-from aidoop.mask_rcnn import model as modellib, utils
-from aidoop.mask_rcnn.config import Config
+from pyaidoop.models.mask_rcnn import model as modellib, utils
+from pyaidoop.models.mask_rcnn.config import Config
 import os
 import sys
 import json

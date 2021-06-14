@@ -6,8 +6,8 @@ aidoop python package module
 ```
 pip install -r requirements.txt
 pip install --upgrade pip
+pip install twine
 python setup.py install
 python setup.py sdist bdist_wheel
-pip install -r requirements.txt
-python -m twine upload --repository testpypi dist/*
+python -m twine upload dist/*
 ```

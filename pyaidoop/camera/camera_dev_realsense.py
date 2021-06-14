@@ -5,7 +5,7 @@ import sys
 import time
 from enum import IntEnum
 
-from aidoop.camera.camera_dev_abc import CameraDev
+from pyaidoop.camera.camera_dev_abc import CameraDev
 
 
 class RealSensePreset(IntEnum):

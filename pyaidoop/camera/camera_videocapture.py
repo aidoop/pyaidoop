@@ -1,8 +1,8 @@
 import sys
 import cv2
 
-from aidoop.camera.camera_dev_opencv import OpencvCapture
-from aidoop.camera.camera_dev_realsense import RealsenseCapture
+from pyaidoop.camera.camera_dev_opencv import OpencvCapture
+from pyaidoop.camera.camera_dev_realsense import RealsenseCapture
 
 
 class VideoCapture:
