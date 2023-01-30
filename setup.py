@@ -6,8 +6,8 @@ and graphql and websocket to cooperate with web application server"""
 
 INSTALL_REQUIRES = [
     "numpy",
-    "opencv-python",
-    "opencv-contrib-python",
+    "opencv-python==4.5.3.56",
+    "opencv-contrib-python==4.5.3.56",
     "pyrealsense2",
     "requests",
     "gql",
@@ -16,7 +16,7 @@ INSTALL_REQUIRES = [
 
 setup(
     name="pyaidoop",
-    version="0.6.0",
+    version="0.7.1",
     author="Jinwon Choi",
     author_email="jinwon@ai-doop.com",
     url="https://github.com/aidoop/pyaidoop.git",
